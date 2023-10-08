@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+# npx eslint --fix ./src --ext .js,.jsx,.ts,.tsx
+npx lint-staged
+
+# npm test

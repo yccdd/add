@@ -1,4 +1,3 @@
-console.log(process.env.key);
 module.exports = {
   env: {
     browser: true,
@@ -21,6 +20,7 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
+    // 'no-console': 'error',
     'no-console': process.env.NODE_ENV === 'development' ? 'off' : 'error',
     'no-alert': process.env.NODE_ENV === 'development' ? 'off' : 'error',
   },
