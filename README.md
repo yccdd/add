@@ -1,6 +1,6 @@
-1.cra初始化项目
-2.自定义(覆盖)webpack 配置 craco
-``````
+1.cra初始化项目2.自定义(覆盖)webpack 配置 craco
+
+```
 安装
 npm i -D @craco/craco
 
@@ -45,3 +45,4 @@ nom i webpack -g
 
 
 
+```
